@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  
+    android:padding="16dp" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> 
+//this is the parent layout (a container that decides how UI elements are positioned). Views inside the layout are called children.
+
+    <EditText
+        android:id="@+id/inputText"  
+        android:hint="Describe the emergency" 
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"/> 
+// this is the user input. This creates a text input box.
+    <Button
+        android:id="@+id/sendButton" 
+        android:text="Send to Assistant" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/> 
+//action trigger. Creates a clickable button.
+
+    <TextView
+        android:id="@+id/responseText"
+        android:text="Response will appear here" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"/> //adds space about text
+</LinearLayout> //closing tag
