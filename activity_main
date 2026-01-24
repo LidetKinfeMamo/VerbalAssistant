@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Call Ambulance -->
+    <ImageButton
+        android:id="@+id/callBtn"
+        android:src="@android:drawable/ic_menu_call"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+
+    <!-- Emergency Icons -->
+    <GridLayout
+        android:layout_centerInParent="true"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/chokingBtn"
+            android:src="@drawable/ic_choking"
+            android:contentDescription="Choking"/>
+
+        <ImageButton
+            android:id="@+id/strokeBtn"
+            android:src="@drawable/ic_stroke"
+            android:contentDescription="Stroke"/>
+
+        <ImageButton
+            android:id="@+id/seizureBtn"
+            android:src="@drawable/ic_seizure"
+            android:contentDescription="Seizure"/>
+    </GridLayout>
+
+</RelativeLayout>
