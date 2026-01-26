@@ -19,3 +19,5 @@ Always contact emergency services immediately in life-threatening situations.
 •	Increasing medical coverage
 # Screenshots 
 
+<img width="576" height="1280" alt="Image" src="https://github.com/user-attachments/assets/4ca256e1-eceb-46c1-9386-aeb906d21018" />
+<img width="1080" height="2400" alt="Image" src="https://github.com/user-attachments/assets/ff1b6db9-e98b-48a8-a01e-6f27fc83204b" />
