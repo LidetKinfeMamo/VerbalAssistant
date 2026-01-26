@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void open(EmergencyType type) {
-
         Intent i = new Intent(this, InfoActivity.class);
         i.putExtra("TYPE", type.name());
         startActivity(i);
     }
+}
+
+
